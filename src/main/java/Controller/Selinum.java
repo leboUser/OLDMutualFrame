@@ -223,7 +223,7 @@ import java.util.concurrent.TimeUnit;
         }
     }
 
-     protected boolean shutdown(){
+     public boolean shutdown(){
         try {
             driver.close();
             driver.quit();

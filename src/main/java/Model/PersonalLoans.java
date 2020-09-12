@@ -36,7 +36,7 @@ public class PersonalLoans extends Selinum {
         clickElement(By.xpath(viewBreakdown),true,"Able to click view Breakdown");
         validateElementText(By.xpath(capitalAmount),amount,true,"Able to view Capital Amount");
         validateElementText(By.xpath(termsAllocated),term, true, "Able to view Term Allocated");
-        shutdown();
+
     }
 
 

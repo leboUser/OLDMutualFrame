@@ -40,7 +40,7 @@ abstract class Report  {
         return reportDirctory = System.getProperty("user.dir") + "\\Reports\\" +  testcaseFolder+ "\\" + getCurTime()+"\\";
     }
 
-    protected void flush(){
+    public void flush(){
         report.flush();
     }
 
