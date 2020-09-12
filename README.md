@@ -11,7 +11,7 @@
 
    
    ## Docker
-   1. docker build image file 
+   1. Docker build image file 
    -tag Dockerfile -- To build the docker image.
    
    
