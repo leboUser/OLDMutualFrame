@@ -1,0 +1,6 @@
+# Default ignored files
+/workspace.xml
+Reports
+.idea
+target
+/OldMFrame.iml
